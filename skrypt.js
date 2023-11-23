@@ -47,26 +47,21 @@ document.getElementById('overlay').addEventListener('click', function() {
   }
   
 
-  /*
-    <nav class="menu">
 
-    <div class="left">
+  document.getElementById('openOverlayBtn').addEventListener('click', function() {
+    document.getElementById('overlay2').style.display = 'block';
+});
 
-        <div class="signup-container">
-        <a class="signup">Sign up</a>
-        <div id="fill"></div>
-        <a id="login">Log in</a>
-        </div>
+document.getElementById('closeOverlayBtn').addEventListener('click', function() {
+    document.getElementById('overlay2').style.display = 'none';
+});
 
-        <div class="linklist">
-            <ul>
-                <li><a id="linklist" href="//www.uber.com/business/eats">Create a business account</a></li>
-                <li><a id="linklist" href="//merchants.ubereats.com/s/signup/">Add your restaurant</a></li>
-                <li><a id="linklist" href="//www.uber.com/drive/delivery/">Sign up to deliver</a></li>
-            </ul>
-        </div>
-    </div>
 
-    <div class="right"></div>
 
-    </nav> */
+document.getElementById('openOverlayBtn2').addEventListener('click', function() {
+    document.getElementById('overlay3').style.display = 'block';
+});
+
+document.getElementById('closeOverlayBtn2').addEventListener('click', function() {
+    document.getElementById('overlay3').style.display = 'none';
+});

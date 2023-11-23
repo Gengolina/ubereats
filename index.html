@@ -20,9 +20,9 @@
         
 
         <div class="signup-container">
-        <a class="signup">Sign up</a>
+        <a class="signup" href="https://www.ubereats.com/login-redirect/?campaign=signin_universal_link&marketing_vistor_id=5fcdc2fd-f432-421c-a561-ee571b5c992f&redirect=%2Fpl-en%3Futm_source%3DAdWords_Brand%26utm_campaign%3DCM2330543-search-google-brand_139_-99_PL-National_e_web_acq_cpc_en_T1_Generic_BM_ubereats_kwd-111378724377_660733487226_149704288973_b_c%26campaign_id%3D20231791899%26adg_id%3D149704288973%26fi_id%3D%26match%3Db%26net%3Dg%26dev%3Dc%26dev_m%3D%26ad_id%3D660733487226%26cre%3D660733487226%26kwid%3Dkwd-111378724377%26kw%3Dubereats%26placement%3D%26tar%3D%26gclsrc%3Daw.ds%26gclid%3DEAIaIQobChMImqW685TXggMV7U9BAh03EwUdEAAYASAAEgJVU_D_BwE&guest_mode=false&app_clip=false">Sign up</a>
         <div id="fill"></div>
-        <a id="login">Log in</a>
+        <a id="login" href="https://www.ubereats.com/login-redirect/?campaign=signin_universal_link&marketing_vistor_id=5fcdc2fd-f432-421c-a561-ee571b5c992f&redirect=%2Fpl-en%3Futm_source%3DAdWords_Brand%26utm_campaign%3DCM2330543-search-google-brand_139_-99_PL-National_e_web_acq_cpc_en_T1_Generic_BM_ubereats_kwd-111378724377_660733487226_149704288973_b_c%26campaign_id%3D20231791899%26adg_id%3D149704288973%26fi_id%3D%26match%3Db%26net%3Dg%26dev%3Dc%26dev_m%3D%26ad_id%3D660733487226%26cre%3D660733487226%26kwid%3Dkwd-111378724377%26kw%3Dubereats%26placement%3D%26tar%3D%26gclsrc%3Daw.ds%26gclid%3DEAIaIQobChMImqW685TXggMV7U9BAh03EwUdEAAYASAAEgJVU_D_BwE&guest_mode=false&app_clip=false">Log in</a>
         </div>
 
         <div class="linklist">
@@ -91,25 +91,58 @@
 
 
         
-        <a class="delivery" href="/pl-en/delivery-details">
+        <a class="delivery" id="openOverlayBtn">
             <div class="address">
             <svg aria-hidden="true" focusable="false" viewBox="0 0 35 24" class="pin">
                 <path d="M17.583 5.166a7.896 7.896 0 00-11.166 0c-3.084 3.083-3.084 8.167 0 11.25L12 21.999l5.583-5.666c3.084-3 3.084-8.084 0-11.167zM12 12.416c-.917 0-1.667-.75-1.667-1.667 0-.916.75-1.666 1.667-1.666s1.667.75 1.667 1.666c0 .917-.75 1.667-1.667 1.667z"></path>
                 <clipPath id="clip0"><path transform="translate(2 2)" d="M0 0h20v20H0z"></path></clipPath></svg>Enter delivery address
             </div>
         </a>
+
+        <div class="overlay2" id="overlay2">
+            <span class="close-btn" id="closeOverlayBtn">&times;</span>
+                <div class="deliver">
+                    <h2>Deliver to</h2>
+                </div>
+                    <div class="deliveryaddress">
+                        <div class="fl">
+                            <div>
+                                <svg width="24px" height="24px" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                                    <path d="m20.8333 19-3.6666-3.6667c.9167-1.3333 1.4999-2.9166 1.4999-4.6666 0-4.33334-3.5833-7.9167-7.9167-7.9167-4.33331 0-7.91665 3.58336-7.91665 7.9167 0 4.3333 3.58334 7.9167 7.91665 7.9167 1.75 0 3.3334-.5834 4.6668-1.5001l3.6666 3.6667zm-15.50005-8.25c0-2.99999 2.41667-5.41666 5.41665-5.41666 3 0 5.4167 2.41667 5.4167 5.41666 0 3-2.4167 5.4167-5.4167 5.4167-2.99998 0-5.41665-2.4167-5.41665-5.4167z" fill="currentColor"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="spacer _16"></div>
+                        <input class="enterda" role="combobox" aria-expanded="false" id="location-typeahead-location-manager-input" aria-autocomplete="list" aria-controls="location-typeahead-location-manager-menu" aria-labelledby="location-typeahead-location-manager-label" autocomplete="off" placeholder="Enter delivery address">
+                    </div>
+        </div>
+        
         
 
-        <a class="delivery" href="/pl-en/delivery-details">
+
+
+
+
+        <a class="delivery" id="openOverlayBtn2">
             <div class="address">
                 <svg aria-hidden="true" focusable="false" viewBox="0 0 35 24" class="pin" xmlns="http://www.w3.org/2000/svg" aria-label="When" role="img" focusable="false">
                     <path d="M12 2.83398C6.91671 2.83398 2.83337 6.91732 2.83337 12.0007C2.83337 17.084 6.91671 21.1673 12 21.1673C17.0834 21.1673 21.1667 17.084 21.1667 12.0007C21.1667 6.91732 17.0834 2.83398 12 2.83398ZM17 13.6673H10.3334V5.33398H12.8334V11.1673H17V13.6673Z" fill="#000000"></path>
                 </svg>Deliver now
             </div>
         </a>
+        
+        
+
+
+
+
+
+
         <br>
 
-        <a class="findfood" href="/pl-en/delivery-details?next=%2Fpl-en%3Futm_source%3DAdWords_Brand%26utm_campaign%3DCM2330543-search-google-brand_139_-99_PL-National_e_web_acq_cpc_en_T1_Generic_BM_ubereats_kwd-111378724377_660733487226_149704288973_b_c%26campaign_id%3D20231791899%26adg_id%3D149704288973%26fi_id%3D%26match%3Db%26net%3Dg%26dev%3Dc%26dev_m%3D%26ad_id%3D660733487226%26cre%3D660733487226%26kwid%3Dkwd-111378724377%26kw%3Dubereats%26placement%3D%26tar%3D%26gclsrc%3Daw.ds%26gclid%3DEAIaIQobChMImqW685TXggMV7U9BAh03EwUdEAAYASAAEgJVU_D_BwE">Find Food</a>
+        <a class="findfood" id="openOverlayBtn">Find Food</a>
+
+        
         
 
 <div class="orsignin">
@@ -120,6 +153,12 @@ Or <a id="link" href="https://www.ubereats.com/login-redirect/?campaign=signin_u
     </div>
     
 </div>
+
+<div>
+
+</div>
+
+
 <script src="skrypt.js"></script>
 </body>
 </html>
