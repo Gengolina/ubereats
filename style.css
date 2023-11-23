@@ -213,6 +213,13 @@ body
     padding: 15px;
 }
 
+#fill2
+{
+    height: 10px;
+    width: 100%;
+    padding: 3px;
+}
+
 .linklist
 {
     margin-left: 22px;
@@ -329,4 +336,65 @@ body
     outline: none;
     border: none;
     font-size: 15px;
+}
+
+
+.overlay3 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.pickatime
+{
+    background-color: #EEEEEE;
+    border: none;
+    font-size: 16px;
+    -webkit-appearance: none; /* Ukrywa strzałki w przeglądarkach opartych na silniku WebKit (Chrome, Safari) */
+    -moz-appearance: none; /* Ukrywa strzałki w przeglądarkach opartych na silniku Gecko (Firefox) */
+    appearance: none;
+    margin-top: 10px;
+    width: 340px;
+}
+
+#pickatime
+{
+    padding: 10px 10px;
+    background-color: #EEEEEE;
+    margin-left: 20px;
+    width: 370px;
+    height: 36px;
+}
+
+.shedule
+{
+    margin-top: 530px;
+}
+
+#shedule
+{
+    background-color: black;
+    padding: 15px 158px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 7px;
+    font-weight: bold;
+    margin-left: 22px;
+}
+
+#delivernow
+{
+    background-color: #EEEEEE;
+    padding: 15px 142px;
+    color: rgb(41, 41, 41);
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 7px;
+    font-weight: bold;
+    margin-left: 22px;
 }
