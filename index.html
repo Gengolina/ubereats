@@ -7,13 +7,57 @@
     <title>Document</title>
 </head>
 <body>
-
+    <div class="overlay" id="overlay"></div>
 <div class="banner">
 
     <div id="menu">
-        <button  id="menu_button"><svg><path d="M19.167 3.333H.833v2.5h18.334v-2.5zm0 5.834H.833v2.5h18.334v-2.5zM.833 15h18.334v2.5H.833V15z"></path></svg></button>
+        <button class="menu-toggle" id="menuToggle"><svg><path d="M19.167 3.333H.833v2.5h18.334v-2.5zm0 5.834H.833v2.5h18.334v-2.5zM.833 15h18.334v2.5H.833V15z"></path></svg></button>
     </div>
 
+
+    <nav class="menu">
+
+        
+
+        <div class="signup-container">
+        <a class="signup">Sign up</a>
+        <div id="fill"></div>
+        <a id="login">Log in</a>
+        </div>
+
+        <div class="linklist">
+            <ul>
+                <li><a id="linklist" href="//www.uber.com/business/eats">Create a business account</a></li>
+                <li><a id="linklist" href="//merchants.ubereats.com/s/signup/">Add your restaurant</a></li>
+                <li><a id="linklist" href="//www.uber.com/drive/delivery/">Sign up to deliver</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <div class="app">
+                <div class="fl">
+                <img src="31ee382bd0e6ed84.svg">
+                </div>
+
+                <div class="fl w">
+                <p>There's more to love in the app.</p>
+                </div>
+            </div>
+
+            <div class="mt80">
+            <a href="https://eats.sng.link/A99vk/uq4x?_dl=ubereats%3A%2F%2Fhome&amp;_smtype=3&amp;pcn=ubereatscom_iOScta_navigation&amp;mvid=5fcdc2fd-f432-421c-a561-ee571b5c992f">
+                <svg class="applelogo" aria-hidden="true" focusable="false" viewBox="0 0 24 24" >
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.268 4.231c.649-.838 1.14-2.022.963-3.231-1.061.074-2.301.752-3.025 1.637-.66.802-1.201 1.994-.99 3.152 1.16.036 2.357-.66 3.052-1.558zM20 15.602c-.464 1.035-.688 1.497-1.285 2.413-.834 1.28-2.01 2.872-3.47 2.884-1.294.014-1.628-.849-3.385-.838-1.758.01-2.124.854-3.421.841-1.458-.013-2.572-1.45-3.406-2.729-2.334-3.574-2.58-7.769-1.14-10C4.916 6.587 6.53 5.66 8.048 5.66c1.543 0 2.515.852 3.793.852 1.24 0 1.995-.854 3.78-.854 1.352 0 2.784.74 3.803 2.018-3.34 1.842-2.8 6.642.576 7.925z"></path>
+                </svg>
+                Get the app
+            </a>
+            </div>
+        </div>
+       
+    </nav>
+
+
+   
     <div id="logo">
         <a href="/pl-en"><img alt="Uber Eats Home" role="img" id="uelogo" src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/97c43f8974e6c876.svg"></a>
     </div>
@@ -22,7 +66,7 @@
 
     <div class="profil">
             <a rel="nofollow" tabindex="0" href="https://www.ubereats.com/login-redirect/?campaign=signin_universal_link&amp;marketing_vistor_id=5fcdc2fd-f432-421c-a561-ee571b5c992f&amp;redirect=%2Fpl-en%3Futm_source%3DAdWords_Brand%26utm_campaign%3DCM2330543-search-google-brand_139_-99_PL-National_e_web_acq_cpc_en_T1_Generic_BM_ubereats_kwd-111378724377_660733487226_149704288973_b_c%26campaign_id%3D20231791899%26adg_id%3D149704288973%26fi_id%3D%26match%3Db%26net%3Dg%26dev%3Dc%26dev_m%3D%26ad_id%3D660733487226%26cre%3D660733487226%26kwid%3Dkwd-111378724377%26kw%3Dubereats%26placement%3D%26tar%3D%26gclsrc%3Daw.ds%26gclid%3DEAIaIQobChMImqW685TXggMV7U9BAh03EwUdEAAYASAAEgJVU_D_BwE&amp;guest_mode=false&amp;app_clip=false" data-test="header-sign-in" >
-                <svg aria-hidden="true" focusable="false" viewBox="0 0 26 26">
+                <svg class="login" aria-hidden="true" focusable="false" viewBox="0 0 26 26">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M18.958 7.042a5.958 5.958 0 11-11.916 0 5.958 5.958 0 0111.916 0zM3.25 21.667c0-3.575 2.925-6.5 6.5-6.5h6.5c3.575 0 6.5 2.925 6.5 6.5v3.25H3.25v-3.25z">
                     </path>
                 </svg>
@@ -76,6 +120,6 @@ Or <a id="link" href="https://www.ubereats.com/login-redirect/?campaign=signin_u
     </div>
     
 </div>
-    
+<script src="skrypt.js"></script>
 </body>
 </html>
