@@ -90,12 +90,13 @@ body
     width: 100%;
     left: 0;
     top: 74px;
+    height: auto;
 }
 
 .order
 {
     position: absolute;
-    padding-left: 22px;
+    padding-left: 20px;
     font-size: 23px;
     font-family: sans-serif;
 }
@@ -397,4 +398,114 @@ body
     border-radius: 7px;
     font-weight: bold;
     margin-left: 22px;
+}
+
+
+
+.main2
+{
+    height: auto;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    top: 750px;
+    position: relative;
+    align-items: flex-start;
+    margin-top: 130px;
+}
+
+
+.img1
+{
+    width: 65px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.w70
+{
+    width: 75%;
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.getapp
+{
+    border: none;
+    padding: 16px 142px;
+    border-radius: 10px;
+    background-color: #dadada;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+.imgmain2
+{
+    width: 95%;
+    margin-top: 50px;
+}
+
+.w100
+{
+    width: 100%;
+    padding-top: 100px;
+}
+
+.p1
+{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.p2
+{
+   font-size: 18px; 
+   padding-left: 10px;
+   text-decoration: underline;
+}
+
+.main3
+{
+    padding-top: 770px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+}
+
+.fr {
+    grid-template-columns: repeat(2, 1fr);
+}
+.fq {
+    grid-template-rows: repeat(6, 1fr);
+}
+.fp {
+    gap: 16px 8px;
+}
+.fo {
+    grid-auto-flow: column;
+}
+
+.fn {
+    display: grid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fu
+{
+    text-decoration: none;
+    color: black;
+}
+
+.cities500
+{
+    color: black;
+    font-weight: bold;
+}
+
+.fq2 {
+    grid-template-rows: repeat(15, 1fr);
 }
