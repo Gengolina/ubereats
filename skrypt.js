@@ -63,5 +63,28 @@ document.getElementById('openOverlayBtn2').addEventListener('click', function() 
 });
 
 document.getElementById('closeOverlayBtn2').addEventListener('click', function() {
-    document.getElementById('overlay3').style.display = 'none';
+  document.getElementById('overlay3').style.display = 'none';
 });
+
+
+
+
+
+
+
+window.onscroll = function() {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  var openOverlayBtn = document.getElementById("openOverlayBtn");
+
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      openOverlayBtn.style.position = "fixed";
+      openOverlayBtn.style.width = "100%";
+      openOverlayBtn.style.top = "0";
+  } else {
+      openOverlayBtn.style.position = "relative";
+      openOverlayBtn.style.width = "auto";
+  }
+}

@@ -101,6 +101,17 @@ body
     font-family: sans-serif;
 }
 
+
+
+#openOverlayBtn 
+{
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.3s;
+}
+
+
 .address
 {
     background-color: white;
@@ -122,7 +133,25 @@ body
     text-decoration: none;
     color: rgb(99, 99, 99);
     font-size: 16px;
+    z-index: 150;
 }
+
+.delivery2
+{
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+    font-size: 16px;
+    z-index: 150;
+}
+
+.overlay5
+{
+    height: 50px;
+    width: 100%;
+    background-color: #6b3c07;
+}
+
+
 
 .findfood
 {
@@ -508,4 +537,85 @@ body
 
 .fq2 {
     grid-template-rows: repeat(15, 1fr);
+}
+
+footer
+{
+    padding: 64px 16px 80px 16px;
+    height: auto;
+    width: 100%;
+}
+
+.by
+{
+    padding-right: 10px;
+}
+
+.mb48
+{
+    margin-bottom: 48px;
+}
+
+.gh
+{
+    margin-bottom: 64px;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+
+.gh a
+{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 16px;
+}
+
+.cc
+{
+    height: 16px;
+    width: 16px;
+    margin-right: 25px;
+    flex: none;
+}
+
+.sm
+{
+    color: white;
+    text-decoration: none;
+    height: 1px;
+    width: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;
+    overflow: hidden;
+    margin: -1px;
+    white-space: nowrap;
+}
+
+.al {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.fwl
+{
+    font-weight: lighter;
+}
+
+.mb15
+{
+    margin-bottom: 15px;
+}
+
+.mt30
+{
+    margin-top: 30px;
 }
