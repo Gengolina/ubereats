@@ -8,7 +8,7 @@ body
 {
     height: 75px;
     width: 100%;
-    background-color: #e09e53
+    background-color: #e09e53;
 }
 
 #menu
@@ -50,7 +50,6 @@ body
 .profil
 {
     float: left;
-    width: 4%;
     height: 17px;
     border-radius: 20px;
     align-items: center;
@@ -91,12 +90,14 @@ body
     left: 0;
     bottom: 0;
     right: 0;
+    z-index: -15;
 }
 
 .order
 {
     position: absolute;
     padding-left: 20px;
+    padding-right: 20px;
     font-size: 23px;
     font-family: sans-serif;
 }
@@ -111,6 +112,19 @@ body
     transition-duration: 0.3s;
 }
 
+#fixedDiv {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    z-index: 150;
+  }
+
 
 .address
 {
@@ -120,6 +134,16 @@ body
     align-items: center;
     padding-left: 10px;
     margin-top: 10px;
+}
+
+.address2
+{
+    background-color: rgb(219, 219, 219);
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-right: 40px;
 }
 
 .pin
@@ -150,6 +174,8 @@ body
     width: 100%;
     background-color: #6b3c07;
 }
+
+
 
 
 
@@ -476,13 +502,14 @@ body
 .imgmain2
 {
     width: 95%;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .w100
 {
     width: 100%;
     padding-top: 100px;
+    padding-bottom: 30px;
 }
 
 .p1
@@ -543,7 +570,7 @@ body
 
 footer
 {
-    padding: 64px 16px 80px 16px;
+    padding-left: 16px;
     height: auto;
     width: 100%;
 }
@@ -556,12 +583,12 @@ footer
 .mb48
 {
     margin-bottom: 48px;
+    margin-top: 20px;
 }
 
 .gh
 {
     margin-bottom: 64px;
-
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -620,4 +647,224 @@ footer
 .mt30
 {
     margin-top: 30px;
+}
+
+
+
+@media screen and (min-width: 375px) /*Ip se*/
+{
+    .banner
+    {
+        background-color: transparent;
+    }
+    #logo
+    {
+        padding-left: 0px;
+    }
+    #menu
+    {
+        width: 50px;
+    }
+    .space
+    {
+        width: 50px;
+    }
+    .order
+    {
+        padding-left: 15px;
+    }
+    .findfood
+    {
+    padding: 20px 126px;
+    }
+    .img1
+    {
+    width: 55px;
+    }
+    .main2
+    {
+        top: 465px;
+    }
+    .getapp
+    {
+        padding: 16px 120px;
+    }
+    .imgmain
+    {
+        right: 0;
+    }
+    .p1
+    {
+        padding-left: 10px;
+    }
+    .p2
+    {
+        padding-left: 10px;
+    }
+    .main3
+    {
+        padding-top: 500px;
+    }
+}
+
+@media screen and (min-width: 390px) /*Ip 12 pro*/
+{
+    .banner
+    {
+        background-color: #e09e53;
+    }
+    .space
+    {
+        width: 70px;
+    }
+    .findfood
+    {
+    padding: 20px 134px;
+    }
+    .address
+    {
+        padding-right: 50px;
+    }
+    .main2
+    {
+        top: 660px;
+    }
+    .main3
+    {
+        padding-top: 700px;
+    }
+    .getapp
+    {
+        padding: 16px 140px;
+    }
+}
+
+@media screen and (min-width: 414px) /*Ip xr*/
+{
+    .space
+    {
+        width: 80px;
+    }
+    .findfood
+    {
+    padding: 20px 146px;
+    }
+    .main2
+    {
+        top: 710px;
+    }
+}
+
+@media screen and (min-width: 414px) /*Ip 14 pro max*/
+{
+    .space
+    {
+        width: 100px;
+    }
+    .findfood
+    {
+    padding: 20px 150px;
+    }
+    .main2
+    {
+        top: 730px;
+    }
+    .getapp
+    {
+        padding: 16px 150px;
+    }
+}
+
+@media screen and (min-width: 768px) /*ipad mini*/
+{
+    .banner
+    {
+        background-color: transparent;
+    }
+    #menu
+    {
+        width: 50px;
+    }
+    .space
+    {
+        width: 420px;
+    }
+    .order
+    {
+        padding-left: 185px;
+    }
+    .main2
+    {
+        top: 860px;
+    }
+    .getapp
+    {
+        padding: 16px 300px;
+    }
+    .imgmain
+    {
+        right: 0;
+    }
+    .p1
+    {
+        padding-left: 20px;
+    }
+    .p2
+    {
+        padding-left: 20px;
+    }
+}
+
+
+
+@media screen and (min-width: 820px) /*ipad air*/
+{
+    .space
+    {
+        width: 470px;
+    }
+    .order
+    {
+        padding-left: 210px;
+    }
+    .main2
+    {
+        top: 1000px;
+    }
+    .getapp
+    {
+        padding: 16px 325px;
+    }
+    .imgmain
+    {
+        right: 0;
+    }
+    .main3
+    {
+        padding-top: 1000px;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 1024px) /*ipad pro*/
+{
+    .space
+    {
+        width: 660px;
+    }
+    .order
+    {
+        padding-left: 310px;
+    }
+    .main2
+    {
+        top: 1200px;
+    }
+    .getapp
+    {
+        padding: 16px 420px;
+    }
 }

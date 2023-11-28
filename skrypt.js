@@ -72,19 +72,14 @@ document.getElementById('closeOverlayBtn2').addEventListener('click', function()
 
 
 
-window.onscroll = function() {
-  scrollFunction();
-};
-
-function scrollFunction() {
-  var openOverlayBtn = document.getElementById("openOverlayBtn");
-
-  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-      openOverlayBtn.style.position = "fixed";
-      openOverlayBtn.style.width = "100%";
-      openOverlayBtn.style.top = "0";
+window.addEventListener('scroll', function() {
+  var fixedDiv = document.getElementById('fixedDiv');
+  if (window.scrollY >= 300) {
+    fixedDiv.style.display = 'block';
+    console.log("ififififif");
   } else {
-      openOverlayBtn.style.position = "relative";
-      openOverlayBtn.style.width = "auto";
+    fixedDiv.style.display = 'none';
+    console.log("else");
+
   }
-}
+});
