@@ -8,7 +8,7 @@ body
 {
     height: 75px;
     width: 100%;
-    background-color: #e09e53;
+    background-color: #E2A257
 }
 
 #menu
@@ -91,6 +91,17 @@ body
     bottom: 0;
     right: 0;
     z-index: -15;
+}
+
+.imgmain3
+{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -16;
 }
 
 .order
@@ -649,6 +660,24 @@ footer
     margin-top: 30px;
 }
 
+.map
+{
+    height: 410px;
+    width: 410px;
+}
+
+.a2
+    {
+        color: white;
+        text-decoration: none;
+        height: 1px;
+        width: 1px;
+        clip: rect(1px, 1px, 1px, 1px);
+        position: absolute;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
 
 
 @media screen and (min-width: 375px) /*Ip se*/
@@ -813,6 +842,12 @@ footer
     {
         padding-left: 20px;
     }
+    .map
+    {
+    height: 410px;
+    width: 97%;
+    }
+
 }
 
 
@@ -857,7 +892,7 @@ footer
     }
     .order
     {
-        padding-top: 350px;
+        padding-top: 440px;
         padding-left: 30px;
         position: relative;
     }
@@ -867,7 +902,7 @@ footer
     }
     .address
     {
-        padding-right: 320px;
+        padding-right: 300px;
         margin-top: 0px;
     }
     .findfood
@@ -886,5 +921,134 @@ footer
     .delivery
     {
         float: left;
+    }
+    .delivery2
+    {
+        float: left;
+    }
+    .a1
+    {
+        width: 200px;
+        padding: 0px;
+        padding-left: 15px;
+    }
+    .a2
+    {
+        color: black;
+        position: relative;
+        font-weight: bold;
+    }
+    #uelogo 
+    {
+        height: 25px;
+    }
+    .profil
+    {
+    padding: 15px 15px;
+    margin-top: 10px;
+    }
+    .signup_button 
+    {
+        padding: 15px 17px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .imgmain3
+    {
+    z-index: -14;
+    object-fit: cover;
+    object-position: center;
+    }
+}
+
+@media screen and (min-width: 1124px) /*pc*/
+{
+    .space
+    {
+        width:75%;
+    }
+    .order
+    {
+        padding-top: 240px;
+        padding-left: 30px;
+        position: relative;
+    }
+    .address
+    {
+        padding-right: 330px;
+        margin-top: 0px;
+        margin-left: 13px;
+        margin-right: 10px;
+    } 
+    .main2
+    {
+        top: 230px;
+    }
+    .main3
+    {
+        padding-top: 450px;
+    }
+    .getapp
+    {
+        background-color: transparent;
+        color: transparent;
+        padding: 0px;
+    }
+    
+    .a1
+    {
+        width: 190px;
+        padding: 0px;
+        padding-left: 10px;
+        margin: 0px;
+    }
+    .findfood
+    {
+        float: left;
+        margin-left: 10px;
+        margin-top: -28px;
+        padding: 18px 15px;
+    }
+    .orsignin
+    {
+    margin-top: 60px;
+    margin-left: 15px;
+    }
+    .img1
+    {
+        height: 0px;
+        padding: 0px;
+    }
+    .p3
+    {
+        color: transparent;
+        margin: 0px;
+        height: 0px;
+    }
+    .w70
+    {
+    padding-bottom: 0px;
+    }
+    .applelogo
+    {
+    width: 0px;
+    }
+    .w100
+    {
+        padding: 0px;
+        height: 0px;
+    }
+    #photos
+    {
+        float: left;
+        width: 33%;
+        background-color: white;
+    }
+    .photos
+    {
+        background-color: white;
+        width: 100%;
+        height: 400px;
+        align-items: center;
     }
 }
