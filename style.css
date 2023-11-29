@@ -1,7 +1,8 @@
 body
 {
     margin: 0;
-    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: UberMove, sans-serif;
+
 }
 
 .banner
@@ -97,7 +98,7 @@ body
 {
     position: absolute;
     width: 100%;
-    top: 0;
+    top: -80px;
     left: 0;
     bottom: 0;
     right: 0;
@@ -898,7 +899,7 @@ footer
     }
     .order h2
     {
-        font-size: 50px;
+        font-size: 52px;
     }
     .address
     {
@@ -934,6 +935,8 @@ footer
     }
     .a2
     {
+        
+        text-decoration: double;
         color: black;
         position: relative;
         font-weight: bold;
@@ -941,17 +944,21 @@ footer
     #uelogo 
     {
         height: 25px;
+        margin-left: 10px;
     }
     .profil
     {
     padding: 15px 15px;
-    margin-top: 10px;
+    margin-top: 13px;
     }
     .signup_button 
     {
         padding: 15px 17px;
-        margin-top: 10px;
         font-size: 15px;
+    }
+    #signup
+    {
+        margin-top: 7px;
     }
     .imgmain3
     {
@@ -959,13 +966,22 @@ footer
     object-fit: cover;
     object-position: center;
     }
+    .a3
+    {
+        float: left;
+        padding-left: 30px;
+    }
+    .gh2
+    {
+        flex-direction: row;
+    }
 }
 
 @media screen and (min-width: 1124px) /*pc*/
 {
     .space
     {
-        width:75%;
+        width:74%;
     }
     .order
     {
@@ -1050,5 +1066,15 @@ footer
         width: 100%;
         height: 400px;
         align-items: center;
+        padding-top: 35px;
+    }
+    .address2
+    {
+        padding-right: 520px;
+        margin-left: 350px;
+    }
+    footer
+    {
+        width: 90%;
     }
 }
