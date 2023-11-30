@@ -76,10 +76,36 @@ window.addEventListener('scroll', function() {
   var fixedDiv = document.getElementById('fixedDiv');
   if (window.scrollY >= 300) {
     fixedDiv.style.display = 'block';
-    console.log("ififififif");
   } else {
     fixedDiv.style.display = 'none';
-    console.log("else");
 
   }
 });
+
+
+
+
+
+
+window.onscroll = function()
+{
+  checkScreenWidth();
+}
+
+  checkScreenWidth();
+
+  function checkScreenWidth() {
+
+    let screenWidth = window.innerWidth;
+    let navbar = document.getElementById("banner");
+
+    if (screenWidth >= 1200 && document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+      navbar.classList.add("banner-fullscreen");
+      console.log('Ekran o szerokości min. 1200px');
+    } else {
+      navbar.classList.remove("banner-fullscreen");
+      console.log('Ekran o szerokości mniejszej niż 1200px');
+    }
+  }
+
+window.addEventListener('resize',"scroll", checkScreenWidth);
