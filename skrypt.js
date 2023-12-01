@@ -110,3 +110,15 @@ window.onscroll = function()
   }
 
 window.addEventListener('resize',"scroll", checkScreenWidth);
+
+
+
+
+function toggleOptions() {
+  const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+  if (screenWidth > 1024) {
+      const delivery2 = document.querySelector('.delivery2');
+      delivery2.classList.toggle('active');
+  }
+}

@@ -69,6 +69,10 @@ body
     margin-top: 17px;
     margin-left: 10px;
 }
+.profil:hover
+{
+    background-color: #ebebeb;
+}
 
 #signup
 {
@@ -88,7 +92,10 @@ body
     height: 36px;
     padding: 8px 12px;
     border-radius: 500px;
-
+}
+.signup_button:hover
+{
+    background-color: #353535;
 }
 
 .imgmain
@@ -183,7 +190,6 @@ body
     
 }
 
-
 .delivery2
 {
     text-decoration: none;
@@ -191,6 +197,36 @@ body
     font-size: 16px;
     z-index: 150;
 }
+.options-container {
+    display: none;
+    position: absolute;
+    top: 10;
+    left: 500;
+    width: 100%;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 260px;
+}
+
+.option {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.delivery2.active .options-container {
+    display: block;
+}
+
+
+
+
+
+
+
+
 
 .overlay5
 {
@@ -198,10 +234,6 @@ body
     width: 100%;
     background-color: #6b3c07;
 }
-
-
-
-
 
 .findfood
 {
@@ -212,6 +244,10 @@ body
     font-size: 18px;
     border-radius: 10px;
     font-weight: bold;
+}
+.findfood:hover
+{
+    background-color: #353535;
 }
 
 .orsignin
@@ -231,8 +267,6 @@ body
     width: 20px;
 }
 
-
-
 .overlay {
     display: none;
     position: fixed;
@@ -243,7 +277,6 @@ body
     background-color: rgba(0, 0, 0, 0.5); /* Przyciemnienie: rgba(0, 0, 0, 0.5) - kolor czarny z 50% przezroczystości */
     z-index: 55; /* Ustawiamy wartość z-index niższą niż menu, aby overlay nie przykrywał menu */
   }
-
 
 .menu {
     position: fixed;
@@ -374,9 +407,6 @@ body
     margin-left: 22px;
 }
 
-
-
-
 .overlay2 {
     display: none;
     position: fixed;
@@ -481,8 +511,6 @@ body
     margin-left: 22px;
 }
 
-
-
 .main2
 {
     height: auto;
@@ -493,7 +521,6 @@ body
     align-items: flex-start;
     margin-top: 130px;
 }
-
 
 .img1
 {
@@ -711,11 +738,14 @@ footer
     border: none; 
     outline: none; 
     font-size: 15px;
+    width: 300px;
 }
 h3
 {
     font-weight: lighter;
 }
+
+    
 
 
 @media screen and (min-width: 375px) /*Ip se*/
@@ -941,7 +971,7 @@ h3
     }
     .address
     {
-        padding-right: 300px;
+        padding-right: 220px;
         margin-top: 0px;
     }
     .findfood
@@ -1165,7 +1195,7 @@ h3
       }
       .zi
       {
-        z-index: 30;
+        z-index: 130;
       }
       .none
       {
@@ -1191,6 +1221,11 @@ h3
       {
         display: block;
       }
+
+    .picktime-hidden
+    {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1124px) /*pc*/
@@ -1219,13 +1254,15 @@ h3
         padding-left: 30px;
         position: relative;
     }
+
     .address
     {
-        padding-right: 330px;
+        padding-right: 150px;
         margin-top: 0px;
         margin-left: 13px;
         margin-right: 10px;
     } 
+    
     .main2
     {
         top: 230px;
@@ -1235,7 +1272,6 @@ h3
         padding-top: 450px;
         padding-left: 40px;
     }
-    
     
     .a1
     {
@@ -1250,7 +1286,6 @@ h3
     margin-left: 15px;
     }
     
-    
     .w70
     {
     padding-bottom: 0px;
@@ -1259,7 +1294,6 @@ h3
     {
     padding: 6px 2px;
     }
-    
     
     .address2
     {

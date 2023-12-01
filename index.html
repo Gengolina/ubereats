@@ -91,7 +91,7 @@
         <h2>Order delivery near you</h2>
 
         <a class="delivery" id="openOverlayBtn">
-            <div class="address">
+            <div class="address" id="address">
             <svg aria-hidden="true" focusable="false" viewBox="0 0 35 24" class="pin">
                 <path d="M17.583 5.166a7.896 7.896 0 00-11.166 0c-3.084 3.083-3.084 8.167 0 11.25L12 21.999l5.583-5.666c3.084-3 3.084-8.084 0-11.167zM12 12.416c-.917 0-1.667-.75-1.667-1.667 0-.916.75-1.666 1.667-1.666s1.667.75 1.667 1.666c0 .917-.75 1.667-1.667 1.667z"></path>
                 <clipPath id="clip0"><path transform="translate(2 2)" d="M0 0h20v20H0z"></path></clipPath></svg>
@@ -133,22 +133,41 @@
                     </div>
         </div>
         
-        
+    
 
-
-
-
-
-        <a class="delivery2" id="openOverlayBtn2">
+        <div class="delivery2" id="openOverlayBtn2" onclick="toggleOptions()">
             <div class="address a1">
                 <svg aria-hidden="true" focusable="false" viewBox="0 0 35 24" class="pin" xmlns="http://www.w3.org/2000/svg" aria-label="When" role="img" focusable="false">
                     <path d="M12 2.83398C6.91671 2.83398 2.83337 6.91732 2.83337 12.0007C2.83337 17.084 6.91671 21.1673 12 21.1673C17.0834 21.1673 21.1667 17.084 21.1667 12.0007C21.1667 6.91732 17.0834 2.83398 12 2.83398ZM17 13.6673H10.3334V5.33398H12.8334V11.1673H17V13.6673Z" fill="#000000"></path>
-                </svg>Deliver now
+                </svg><color style="color: black;">Deliver now</color>
+
+
+                <svg width="24px" height="24px" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                    <path d="M17 11.7494V14.916L12 11.0827L7 14.916V11.7494L12 7.91602L17 11.7494Z" fill="#000000" transform="rotate(180, 12, 12)"></path>
+                </svg>
+
+
             </div>
-        </a>
-    
-    
-    
+
+            <div class="options-container">
+
+                <a href="#" class="option">
+                    <svg aria-hidden="true" focusable="false" viewBox="0 0 35 24" class="pin" xmlns="http://www.w3.org/2000/svg" aria-label="When" role="img" focusable="false">
+                        <path d="M12 2.83398C6.91671 2.83398 2.83337 6.91732 2.83337 12.0007C2.83337 17.084 6.91671 21.1673 12 21.1673C17.0834 21.1673 21.1667 17.084 21.1667 12.0007C21.1667 6.91732 17.0834 2.83398 12 2.83398ZM17 13.6673H10.3334V5.33398H12.8334V11.1673H17V13.6673Z" fill="#000000"></path>
+                    </svg>Deliver now
+                </a>
+
+                <a href="#" class="option">
+                    <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" class="pin" xmlns="http://www.w3.org/2000/svg" aria-label="When" role="img" focusable="false">
+                        <path d="M21.1666 8.66732V5.33398H18.6666V2.83398H16.1666V5.33398H7.83325V2.83398H5.33325V5.33398H2.83325V8.66732H21.1666ZM21.1666 21.1673H2.83325V10.334H21.1666V21.1673ZM8.66658 13.6673H6.16658V16.1673H8.66658V13.6673Z" fill="currentColor"></path>
+                    </svg>Schedule for later
+                </a>
+
+
+            </div>
+        </div>
+
+
     <div class="overlay3" id="overlay3">
                 <span class="close-btn" id="closeOverlayBtn2">&times;</span>
                     <div class="deliver">
