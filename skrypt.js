@@ -122,3 +122,10 @@ function toggleOptions() {
       delivery2.classList.toggle('active');
   }
 }
+
+
+function toggleClass(address) {
+  var element = document.getElementById(address);
+  element.classList.toggle('highlighted');
+}
+

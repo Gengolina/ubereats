@@ -161,6 +161,8 @@ body
     margin-top: 10px;
 }
 
+
+
 .address2
 {
     background-color: #EEEEEE;
@@ -206,7 +208,7 @@ body
     background-color: #f9f9f9;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    width: 260px;
+    width: 220px;
 }
 
 .option {
@@ -1226,6 +1228,11 @@ h3
     {
         display: none;
     }
+    .highlighted 
+{
+    box-shadow: rgb(39, 110, 241) 0 -2px 0 inset;
+    transition: 0.3s;
+}
 }
 
 @media screen and (min-width: 1124px) /*pc*/
