@@ -241,7 +241,7 @@ body
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Przyciemnienie: rgba(0, 0, 0, 0.5) - kolor czarny z 50% przezroczystości */
-    z-index: 99; /* Ustawiamy wartość z-index niższą niż menu, aby overlay nie przykrywał menu */
+    z-index: 55; /* Ustawiamy wartość z-index niższą niż menu, aby overlay nie przykrywał menu */
   }
 
 
@@ -606,8 +606,8 @@ footer
 
 .mb48
 {
-    margin-bottom: 48px;
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .gh
@@ -705,8 +705,17 @@ footer
 {
     display: none;
 }
-
-
+.input
+{
+    display: none;
+    border: none; 
+    outline: none; 
+    font-size: 15px;
+}
+h3
+{
+    font-weight: lighter;
+}
 
 
 @media screen and (min-width: 375px) /*Ip se*/
@@ -968,6 +977,12 @@ footer
         position: relative;
         font-weight: bold;
     }
+    .a2a
+    {
+        color: white;
+        position: relative;
+        font-weight: bold;
+    }
     #uelogo 
     {
         height: 25px;
@@ -999,6 +1014,9 @@ footer
     {
         float: left;
         padding-left: 0px;
+        margin-left: 25px;
+        font-size: 14px;
+        margin-top: 20px;
     }
     .gh2
     {
@@ -1031,7 +1049,7 @@ footer
     }
     .h2o
     {
-        font-size: 40px;
+        font-size: 35px;
     }
     .display-none
     {
@@ -1058,6 +1076,7 @@ footer
         width: 100%;
         height: 325px;
         margin-top: 80px;
+        margin-left: 20px;
     }
     #photos
     {
@@ -1148,6 +1167,30 @@ footer
       {
         z-index: 30;
       }
+      .none
+      {
+        display: none;
+      }
+      .mb48
+      {
+        margin-bottom: 140px;
+      }
+      .mb49
+      {
+        margin-bottom: 10px;
+      }
+      #overlay2
+      {
+        display: none;
+      }
+      .h3test
+      {
+        display: none;
+      }
+      .input
+      {
+        display: block;
+      }
 }
 
 @media screen and (min-width: 1124px) /*pc*/
@@ -1160,7 +1203,11 @@ footer
     }
     .ml40
     {
-        margin-left: 40%;
+        margin-left: 36%;
+    }
+    .ml
+    {
+        margin-left: 12%;
     }
     .space
     {
@@ -1168,7 +1215,7 @@ footer
     }
     .order
     {
-        padding-top: 240px;
+        padding-top: 250px;
         padding-left: 30px;
         position: relative;
     }

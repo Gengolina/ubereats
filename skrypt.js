@@ -47,20 +47,21 @@ document.getElementById('overlay').addEventListener('click', function() {
   }
   
 
-
+if(window.innerWidth < 1024){
   document.getElementById('openOverlayBtn').addEventListener('click', function() {
     document.getElementById('overlay2').style.display = 'block';
-});
+    
+})};
 
 document.getElementById('closeOverlayBtn').addEventListener('click', function() {
     document.getElementById('overlay2').style.display = 'none';
 });
 
 
-
+if(window.innerWidth < 1024){
 document.getElementById('openOverlayBtn2').addEventListener('click', function() {
     document.getElementById('overlay3').style.display = 'block';
-});
+})};
 
 document.getElementById('closeOverlayBtn2').addEventListener('click', function() {
   document.getElementById('overlay3').style.display = 'none';
