@@ -87,7 +87,7 @@ function overlayopen()
 
 window.addEventListener('scroll', function() {
   var fixedDiv = document.getElementById('fixedDiv');
-  if (window.scrollY >= 300) {
+  if (window.scrollY >= 350) {
     fixedDiv.style.display = 'block';
   } else {
     fixedDiv.style.display = 'none';
