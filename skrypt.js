@@ -69,6 +69,18 @@ document.getElementById('closeOverlayBtn2').addEventListener('click', function()
 
 
 
+function overlayopen()
+{
+    document.getElementById('openOverlayBtn2').addEventListener('click', function() {
+        document.getElementById('overlay3').style.display = 'block';
+    });
+    
+    document.getElementById('closeOverlayBtn2').addEventListener('click', function() {
+      document.getElementById('overlay3').style.display = 'none';
+    });
+
+}
+
 
 
 
@@ -128,4 +140,7 @@ function toggleClass(address) {
   var element = document.getElementById(address);
   element.classList.toggle('highlighted');
 }
+
+
+
 

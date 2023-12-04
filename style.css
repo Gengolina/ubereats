@@ -663,7 +663,7 @@ footer
 {
     height: 16px;
     width: 16px;
-    margin-right: 25px;
+    margin-right: 15px;
     flex: none;
 }
 
@@ -1106,8 +1106,8 @@ h3
     #w100
     {
         width: 100%;
-        height: 325px;
-        margin-top: 80px;
+        height: 322px;
+        margin-top: 60px;
         margin-left: 20px;
     }
     #photos
@@ -1229,10 +1229,14 @@ h3
         display: none;
     }
     .highlighted 
-{
+    {
     box-shadow: rgb(39, 110, 241) 0 -2px 0 inset;
     transition: 0.3s;
-}
+    }
+    .app
+    {
+    padding-top: 900px;
+    }
 }
 
 @media screen and (min-width: 1124px) /*pc*/
@@ -1321,5 +1325,36 @@ h3
     {
         margin-left: 820px;
         font-size: 15px;
+    }
+    .app
+    {
+    padding-top: 500px;
+    }
+
+
+
+    .overlay3
+    {
+        height: 450px;
+        width: auto;
+        margin-left: 38%;
+        margin-top: 85px;
+    }
+ 
+    .shedule
+    {
+        margin-top: 50px;
+    }
+    .overlay3 h2
+    {
+        font-size: 30px;
+    }
+    #pickatime
+    {
+        margin: 0px 20px 0px 20px;
+    }
+    #delivernow
+    {
+        margin: 20px 20px;
     }
 }
