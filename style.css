@@ -277,7 +277,7 @@ body
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Przyciemnienie: rgba(0, 0, 0, 0.5) - kolor czarny z 50% przezroczystości */
-    z-index: 55; /* Ustawiamy wartość z-index niższą niż menu, aby overlay nie przykrywał menu */
+    z-index: 1; /* Ustawiamy wartość z-index niższą niż menu, aby overlay nie przykrywał menu */
   }
 
 .menu {
@@ -740,6 +740,11 @@ h3
     font-weight: lighter;
 }
 
+.bcg
+{
+    background-color: #EEEEEE;
+}
+
     
 
 
@@ -864,6 +869,10 @@ h3
     .getapp
     {
         padding: 16px 150px;
+    }
+    footer
+    {
+        width: 414px;
     }
 }
 
@@ -1149,7 +1158,7 @@ h3
     }
     .space
     {
-        width:54%;
+        width:50%;
     }
     #logo
     {
@@ -1250,7 +1259,7 @@ h3
         border-left: white solid 20px;
         border-right: white solid 20px;
         border-bottom: white solid 20px;
-        padding: 15px 141px;
+        padding: 15px 140px;
         margin-left: 0px;
     }
     #overlay3
@@ -1267,7 +1276,7 @@ h3
     {
         background-color: white;
         margin-left: 30%;
-        width: 40%;
+        width: 42%;
         height: auto;
     }
     .close-btn {
@@ -1283,7 +1292,6 @@ h3
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: white;
     z-index: 99;
 }
 
@@ -1307,7 +1315,7 @@ h3
     #overlay3
     {
         height: 100%;
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(38, 38, 38, 0.8);
         width: 100%;
     } 
     #overlay3 h2
