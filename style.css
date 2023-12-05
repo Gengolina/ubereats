@@ -452,16 +452,8 @@ body
 }
 
 
-.overlay3 {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    z-index: 99;
-}
+
+
 
 .pickatime
 {
@@ -1239,10 +1231,89 @@ h3
     {
     padding-top: 900px;
     }
+
+
+
+   
+ 
+    .shedule
+    {
+        margin-top: 50px;
+    }
+    
+    #pickatime
+    {
+        margin: 0px 20px 0px 20px;
+    }
+    #delivernow
+    {
+        border-left: white solid 20px;
+        border-right: white solid 20px;
+        border-bottom: white solid 20px;
+        padding: 15px 141px;
+        margin-left: 0px;
+    }
+    #overlay3
+    {
+        height: 450px;
+        width: auto;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    #overlay3 h2
+    {
+        font-size: 30px;
+    }
+    .overlay3
+    {
+        background-color: white;
+        margin-left: 30%;
+        width: 40%;
+        height: auto;
+    }
+    .close-btn {
+        position: relative;
+    }
+
+}
+
+#overlay3 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 99;
 }
 
 @media screen and (min-width: 1124px) /*pc*/
-{
+{  
+    #delivernow
+    {
+        border-left: white solid 20px;
+        border-right: white solid 26px;
+        border-bottom: white solid 20px;
+        padding: 15px 145px;
+        margin-left: 0px;
+    }
+    .overlay3
+    {
+        background-color: white;
+        margin-left: 35%;
+        width: 23%;
+        height: auto;
+    }
+    #overlay3
+    {
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        width: 100%;
+    } 
+    #overlay3 h2
+    {
+        font-size: 30px;
+    }
     .imgmain3
     {
     z-index: -14;
@@ -1335,28 +1406,15 @@ h3
 
 
 
-    .overlay3
-    {
-        height: 450px;
-        width: auto;
-        margin-left: 38%;
-        margin-top: 85px;
-    }
+    
  
     .shedule
     {
         margin-top: 50px;
     }
-    .overlay3 h2
-    {
-        font-size: 30px;
-    }
+    
     #pickatime
     {
         margin: 0px 20px 0px 20px;
-    }
-    #delivernow
-    {
-        margin: 20px 20px;
     }
 }
