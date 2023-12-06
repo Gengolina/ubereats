@@ -918,7 +918,7 @@ h3
     }
     .map
     {
-    height: 410px;
+    height: 400px;
     width: 97%;
     }
 
@@ -1250,11 +1250,8 @@ h3
     }
     #delivernow
     {
-        border-left: white solid 20px;
-        border-right: white solid 20px;
-        border-bottom: white solid 20px;
         padding: 15px 140px;
-        margin-left: 0px;
+        margin-left: 22px;
     }
     #overlay3
     {
@@ -1271,7 +1268,7 @@ h3
         background-color: white;
         margin-left: 30%;
         width: 42%;
-        height: auto;
+        height: 450px;
     }
     .close-btn {
         position: relative;
@@ -1281,9 +1278,7 @@ h3
         display: block;
         padding-left: 800px;
     }
-
 }
-
 
 #overlay3 {
     display: none;
@@ -1299,18 +1294,15 @@ h3
 {  
     #delivernow
     {
-        border-left: white solid 20px;
-        border-right: white solid 26px;
-        border-bottom: white solid 20px;
-        padding: 15px 145px;
-        margin-left: 0px;
+        padding: 15px 142px;
+        margin-left: 22px;
     }
     .overlay3
     {
         background-color: white;
         margin-left: 35%;
         width: 23%;
-        height: auto;
+        height: 450px;
     }
     #overlay3
     {
@@ -1361,6 +1353,7 @@ h3
     {
         padding-top: 450px;
         padding-left: 40px;
+        padding-bottom: 10px;
     }
     .a1
     {
