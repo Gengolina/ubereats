@@ -9,7 +9,9 @@ body
 {
     height: 75px;
     width: 100%;
-    background-color: #E2A257
+    background-color: #E2A257;
+    position: absolute;
+    z-index: 10;
 }
 
 #menu
@@ -128,8 +130,6 @@ body
     font-family: sans-serif;
 }
 
-
-
 #openOverlayBtn 
 {
     text-align: center;
@@ -221,14 +221,6 @@ body
 .delivery2.active .options-container {
     display: block;
 }
-
-
-
-
-
-
-
-
 
 .overlay5
 {
@@ -451,10 +443,6 @@ body
     font-size: 15px;
 }
 
-
-
-
-
 .pickatime
 {
     background-color: #EEEEEE;
@@ -602,13 +590,22 @@ body
     text-decoration: none;
     color: black;
 }
-
+.be
+{
+    font-size: 15px;
+}
 .cities500
 {
     color: black;
     font-weight: bold;
+    font-size: 15px;
 }
-
+.countries
+{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
 .fq2 {
     grid-template-rows: repeat(15, 1fr);
 }
@@ -745,15 +742,19 @@ h3
     background-color: #EEEEEE;
 }
 
-    
-
+.none2
+{
+    display: none;
+}
 
 @media screen and (min-width: 375px) /*Ip se*/
 {
     .banner
     {
-        background-color: transparent;
+    background-color: transparent;
+    position: relative;
     }
+    
     #logo
     {
         padding-left: 0px;
@@ -844,7 +845,7 @@ h3
     }
     .findfood
     {
-    padding: 20px 146px;
+    padding: 20px 145px;
     }
     .main2
     {
@@ -852,7 +853,7 @@ h3
     }
 }
 
-@media screen and (min-width: 414px) /*Ip 14 pro max*/
+@media screen and (min-width: 430px) /*Ip 14 pro max*/
 {
     .space
     {
@@ -874,6 +875,7 @@ h3
     {
         width: 414px;
     }
+    
 }
 
 @media screen and (min-width: 768px) /*ipad mini*/
@@ -922,8 +924,6 @@ h3
 
 }
 
-
-
 @media screen and (min-width: 820px) /*ipad air*/
 {
     .space
@@ -952,15 +952,15 @@ h3
     }
 }
 
-
-
-
-
 @media screen and (min-width: 1024px) /*ipad pro*/
 {
     .space
     {
         width: 660px;
+    }
+    .banner
+    {
+        position: absolute;
     }
     .order
     {
@@ -985,7 +985,7 @@ h3
     }   
     .main2
     {
-        top: 500px;
+        top: 556px;
     }
     .getapp
     {
@@ -1169,7 +1169,6 @@ h3
         margin-left: 1px;
         padding-top: 15px;
     }
-
     .address
     {
         margin-right: 10px;
@@ -1240,11 +1239,6 @@ h3
     {
     padding-top: 900px;
     }
-
-
-
-   
- 
     .shedule
     {
         margin-top: 50px;
@@ -1282,8 +1276,14 @@ h3
     .close-btn {
         position: relative;
     }
+    .countries
+    {
+        display: block;
+        padding-left: 800px;
+    }
 
 }
+
 
 #overlay3 {
     display: none;
@@ -1346,25 +1346,22 @@ h3
         padding-left: 30px;
         position: relative;
     }
-
     .address
     {
         padding-right: 150px;
         margin-top: 0px;
         margin-left: 13px;
         margin-right: 10px;
-    } 
-    
+    }   
     .main2
     {
-        top: 230px;
+        top: 290px;
     }
     .main3
     {
         padding-top: 450px;
         padding-left: 40px;
     }
-    
     .a1
     {
         width: 190px;
@@ -1376,8 +1373,7 @@ h3
     {
     margin-top: 60px;
     margin-left: 15px;
-    }
-    
+    }  
     .w70
     {
     padding-bottom: 0px;
@@ -1385,8 +1381,7 @@ h3
     #menuToggle
     {
     padding: 6px 2px;
-    }
-    
+    }   
     .address2
     {
         padding-right: 400px;
@@ -1411,18 +1406,17 @@ h3
     {
     padding-top: 500px;
     }
-
-
-
-    
- 
     .shedule
     {
         margin-top: 50px;
     }
-    
     #pickatime
     {
         margin: 0px 20px 0px 20px;
+    }
+    .countries
+    {
+    padding-left: 1700px;
+    display: block;
     }
 }
